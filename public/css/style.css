@@ -1,0 +1,18 @@
+.tentang__text_1::before {
+	content: '';
+	position: absolute;
+	border-bottom: 40px solid #80BEF5;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	left: -55px;
+	transform: rotate(-90deg);
+}
+.tentang__text_2::before {
+	content: '';
+	position: absolute;
+	border-bottom: 40px solid #80BEF5;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	right: -40px;
+	transform: rotate(90deg);
+}
