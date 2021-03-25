@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 .tentang__text_1::before {
 	content: '';
 	position: absolute;
@@ -15,4 +18,23 @@
 	border-right: 20px solid transparent;
 	right: -40px;
 	transform: rotate(90deg);
+}
+.active {
+	font-weight: 600;
+	transition: .5s ease-in-out;
+}
+.active::after {
+	content: '';
+	display: block;
+    width:10%;
+    transition: .3s ease;
+    border-bottom : 3px solid white;
+    margin: 0 auto;
+}
+.active:hover::after{
+	content: '';
+    display: block;
+    border-bottom : 3px solid white;
+    width : 50%;
+    margin :auto;
 }

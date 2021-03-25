@@ -142,8 +142,12 @@
 @section('content')
     <div
         class="bg-header bg-cover">
+        <div>
+            <x-nav-top />
+        </div>
         <div
-            class="relative">
+            class="relative"
+            id="beranda">
             <x-navbar />
             <x-mobile />
         </div>
@@ -155,9 +159,11 @@
     </div>
 
     <div
-        class="bg-middle bg-cover -mt-32">
+        class="bg-middle bg-cover -mt-32"
+        id="tentang">
         <x-tentang />
-        <div>
+        <div
+            id="kontak">
             <x-footer />
         </div>
     </div>

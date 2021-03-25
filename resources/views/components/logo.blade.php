@@ -1,5 +1,4 @@
-<div>
     <img 
     src="{{ asset('img/logo.png') }}" 
-    alt="">
-</div>
+    alt=""
+    class="w-20 m-auto">

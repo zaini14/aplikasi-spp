@@ -25,7 +25,8 @@ module.exports = {
             backgroundImage: {
                 'header': "url('../img/bg-header.png')",
                 'middle': "url('../img/bg-middle.png')",
-                'footer': "url('../img/bg-footer.png')"
+                'footer': "url('../img/bg-footer.png')",
+                'login': "url('../img/bg-login.png')"
             }
         },
     },
@@ -33,6 +34,8 @@ module.exports = {
     variants: {
         extend: {
             opacity: ['disabled'],
+            cursor: ['hover'],
+            borderStyle: ['hover', 'active', 'focus'],
         },
     },
 
